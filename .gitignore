@@ -1,1 +1,49 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# Virtualenvs
 venv/
+.venv/
+env/
+ENV/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Alembic cache (keep migrations!)
+alembic/__pycache__/
+
+# Pydantic + pytest cache
+.mypy_cache/
+.pytest_cache/
+
+# Docker
+*.pid
+*.db
+docker-compose.override.yml
+
+# PostgreSQL dumps
+*.sql
+*.dump
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
